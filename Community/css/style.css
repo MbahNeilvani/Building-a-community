@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 25px;
+    color: hsl(208, 11%, 55%);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.butt{
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color:  hsl(322, 100%, 66%);
+    border: none;
+}
+
+#head{
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  hsl(193, 100%, 96%);
+}
+
+.nav{
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.nav img{
+    width: 40%;
+}
+
+.nav a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.main h1{
+    color: #000;
+    margin-top: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.main p{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18.5px;
+}
+
+.main .butt{
+    display: flex;
+    margin-left: 60px;
+    
+}
+
+#ready{
+    justify-content: center;
+    display: flex;
+}
+
+.main img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+#grow, #flow{
+    margin: 50px 0;
+}
+
+.grow_together img, .flowing_conversations img, .your_users img{
+    width: 90%;
+    align-self: center;
+}
+
+.grow_together{
+    display: flex;
+    box-shadow: 0 0 8px 3px rgb(224, 219, 219);
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    border: none;
+    height: 550px;
+}
+
+.grow_together h2, .flowing_conversations h2, .your_users h2{
+    color: #000;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.grow_together p{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.flowing_conversations{
+    display: flex;
+    box-shadow: 0 0 8px 3px rgb(224, 219, 219);
+    border-radius: 10px;
+    flex-direction: column;
+    border: none;
+    height: 530px;
+}
+
+.flowing_conversations p{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.flowing_conversations img{
+    margin-top: 50px;
+}
+
+.your_users{
+    display: flex;
+    box-shadow: 0 0 8px 3px rgb(224, 219, 219);
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    border: none;
+    height: 480px;
+}
+
+.your_users img{
+    padding: 0 20px;
+}
+
+.your_users p{
+    text-align: center;
+    padding: 0 20px 30px 20px;
+}
+
+.ready_to{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.ready_to{
+    display: flex;
+    box-shadow: 0 0 8px rgb(224, 219, 219);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 50px;
+    flex-direction: column;
+    height: 190px;
+    position: relative;
+    z-index: 3;
+}
+
+.ready_to p{
+    color: #000;
+    font-size: 20px;
+    padding: 50px 8px 30px 8px;
+    font-weight: bold;
+}
+
+.ready_to .butt{
+    margin: 0  50px;
+    padding: 15px 0;
+}
+
+footer{
+    height: 50px;
+    margin-top: 20px;
+    background-color: teal;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer >p ,a{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+@media screen and (min-width: 376px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: sans-serif;
+        line-height: 25px;
+        color: hsl(208, 11%, 55%);
+    }
+    
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+    #head{
+        height: 650px;
+    }
+
+    .nav img{
+        width: 20%;
+    }
+
+    .main{
+        display: flex;
+    }
+
+    .main >div{
+        padding: 110px 50px 0 0;
+        text-align: unset;
+    }
+
+    .main h1{
+        padding-right: 70px;
+    }
+
+    .main img{
+        width: 55%;
+    }
+
+    .grow_together > div, .flowing_conversations > div, .your_users > div{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .grow_together, .flowing_conversations, .your_users{
+        height: 380px;
+    }
+
+    .grow_together img{
+        padding: 0 35px 50px 0;
+        width: 35%;
+    }
+
+    .grow_together > div > div{
+        padding-top: 70px;
+    }
+
+    .grow_together > div > div h2{
+        text-align: left;
+        padding: 15px 120px;
+    }
+
+    .grow_together > div > div p, .your_users > div > div p{
+        text-align: left;
+        padding: 0 120px;
+    }
+
+    .flowing_conversations img{
+        padding-left: 0 0 50px 35px;
+    }
+
+    .flowing_conversations img{
+        padding: 20px 0 50px 100px;
+        width: 40%;
+    }
+
+    .flowing_conversations > div >img + div h2{
+        padding-right: 260px;
+        text-align: right;
+    }
+
+    .flowing_conversations > div >img + div h2+p{
+        padding-left: 120px ;
+        text-align: left;
+    }
+
+    .flowing_conversations h2{
+        padding-bottom: 15px;
+    }
+    
+    .flowing_conversations > div >img + div{
+        padding-top: 100px;
+    }
+    
+    .your_users img{
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .your_users > div > div h2{
+        text-align: left;
+        padding: 15px 120px; 
+    }
+
+    .ready_to{
+        padding: 0 350px;
+    }
+
+    footer{
+        height: 50px;
+        background-color: teal;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    footer >p ,a{
+        padding-top: 15px;
+        color: #fff;
+        text-decoration: none;
+        align-items: center;
+    }
+}
